@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@bjclopes/homebridge-ledstrip-bledom": "^1.7.2"
+  },
+  "trustedDependencies": [
+    "@abandonware/bluetooth-hci-socket",
+    "@abandonware/noble"
+  ]
+}
