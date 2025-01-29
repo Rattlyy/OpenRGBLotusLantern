@@ -13,9 +13,9 @@ Very small Node.js app that adds support for LotusLantern LED strips to OpenRGB.
 1. Open OpenRGB
 2. Go to Settings -> Serial Devices
 3. Add a new device with the following settings:
-   - Port: udp:127.0.0.1 (very counterintuitive, I know)
-   - Baud: 1920 (also very counterintuitive)
-   - Protocol: Keyboard Visualizer
+   - Port: `udp:127.0.0.1` (very counterintuitive, I know)
+   - Baud: `1920` (also very counterintuitive)
+   - Protocol: `Keyboard Visualizer`
 4. Scan for devices 
 
 Once the device is added, you can control the LED strip from OpenRGB.

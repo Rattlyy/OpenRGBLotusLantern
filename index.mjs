@@ -2,7 +2,7 @@ import { createSocket } from "node:dgram";
 import Device from "@bjclopes/homebridge-ledstrip-bledom/Device.js";
 
 if (!process.argv[2]) {
-  throw new Error("pls enter source and destination port and uuid");
+  throw new Error("pls enter uuid");
 }
 
 const server = createSocket("udp4");
