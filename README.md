@@ -6,7 +6,7 @@ Very small Node.js app that adds support for LotusLantern LED strips to OpenRGB.
 
 1. Clone this repository
 2. Run `npm install`
-3. Run `npm start`
+3. Run `npm start <mac address (lowercase and without any special characters)>`
 
 ## Usage
 
